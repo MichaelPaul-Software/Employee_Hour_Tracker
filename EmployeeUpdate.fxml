@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDialog?>
+<?import com.jfoenix.controls.JFXSpinner?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="494.0" prefWidth="806.0" style="-fx-background-color: #3150A4;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <JFXDialog layoutX="147.0" layoutY="85.0" prefHeight="128.0" prefWidth="194.0" />
+      <Pane prefHeight="494.0" prefWidth="214.0" style="-fx-background-color: #4A69BD;">
+         <children>
+         	<Label layoutX="61.0" layoutY="371.0" opacity="0.9" text="Admin" textFill="#ddd8d8" />
+            <JFXButton alignment="BASELINE_LEFT" prefHeight="140.0" prefWidth="214.0" style="-fx-background-color: #3150A4;" text="Employee" textFill="#ecf0f1">
+               <font>
+                  <Font name="Segoe UI" size="27.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton alignment="BASELINE_LEFT" layoutY="146.0" opacity="0.9" prefHeight="140.0" prefWidth="214.0" text="Manager" textFill="#ecf0f1">
+               <font>
+                  <Font size="27.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton alignment="BASELINE_LEFT" layoutY="292.0" prefHeight="140.0" prefWidth="214.0" text="Payroll" textFill="#ecf0f1">
+               <font>
+                  <Font size="27.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton alignment="CENTER" contentDisplay="CENTER" layoutY="437.0" opacity="0.9" prefHeight="58.0" prefWidth="214.0" text="Contact" textFill="#bdc3c7">
+               <font>
+                  <Font size="19.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+         </children>
+      </Pane>
+      <JFXSpinner layoutX="735.0" layoutY="430.0" prefHeight="50.0" prefWidth="50.0" />
+      <Label layoutX="391.0" layoutY="472.0" prefHeight="17.0" prefWidth="230.0" text="Group 1 - 481W - Employee Hour Tracker" textFill="#909090" />
+      <JFXButton buttonType="RAISED" layoutX="633.0" layoutY="60.0" prefHeight="50.0" prefWidth="118.0" style="-fx-background-color: #7f9de7;" text="Update Info." textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="503.0" layoutY="60.0" prefHeight="50.0" prefWidth="118.0" style="-fx-background-color: #4A69BD;" text="Time Stamps" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="375.0" layoutY="60.0" prefHeight="50.0" prefWidth="118.0" style="-fx-background-color: #4A69BD;" text="Bi-Weekly Total" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="244.0" layoutY="60.0" prefHeight="50.0" prefWidth="118.0" style="-fx-background-color: #4A69BD;" text="Current Week" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Label layoutX="263.0" layoutY="222.0" text="New Username" textFill="#d3d3d3">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="442.0" layoutY="222.0" text="New Password" textFill="LIGHTGRAY">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="636.0" layoutY="222.0" text="New Email" textFill="LIGHTGRAY">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="317.0" layoutY="149.0" prefHeight="55.0" prefWidth="334.0" text="Update Information" textFill="LIGHTGRAY">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+      <JFXTextField alignment="BOTTOM_CENTER" focusColor="#c99c33" layoutX="249.0" layoutY="253.0" promptText="Username" unFocusColor="WHITE" />
+      <JFXTextField alignment="BOTTOM_CENTER" focusColor="#c99c33" layoutX="426.0" layoutY="253.0" promptText="Password" unFocusColor="WHITE" />
+      <JFXTextField alignment="BOTTOM_CENTER" focusColor="#c99c33" layoutX="606.0" layoutY="253.0" promptText="Email" unFocusColor="WHITE" />
+      <Label layoutX="453.0" layoutY="328.0" text="Password" textFill="LIGHTGRAY">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <JFXTextField alignment="BOTTOM_CENTER" focusColor="#c99c33" layoutX="378.0" layoutY="356.0" prefHeight="41.0" prefWidth="230.0" promptText="Current Password" unFocusColor="WHITE" />
+      <JFXButton buttonType="RAISED" layoutX="434.0" layoutY="423.0" prefHeight="32.0" prefWidth="118.0" style="-fx-background-color: #4A69BD;" text="Submit" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="626.0" layoutY="423.0" prefHeight="32.0" prefWidth="94.0" style="-fx-background-color: #4A69BD;" text="Back" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+   </children>
+</Pane>
